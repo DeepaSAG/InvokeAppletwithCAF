@@ -1,0 +1,32 @@
+Invoking a Java Applet from a CAF Portlet
+
+
+This sample provides a basic example to invoke a Java Applet inside a CAF Portlet
+
+High Level Steps to invoke a Java Applet inside a CAF Portlet
+************************************************************
+
+A) Create a simple Java Applet class.
+
+B) Compile the Java Applet Class. This should create a class file
+
+C) Refer this class file in the html page to load the applet.
+
+
+CAF Application Installation Steps:
+-----------------------------------
+
+1. Import the attached AppletPortletApp.zip into Designer
+
+2. Publish to MWS runtime
+
+3. When the CAF Portlet application loads, you will find the Applet loaded .
+
+Tips : 
+
+You can extend the Applet functionality by enhancing the Java Applet Class - FirstApplet.java. (You can view the files of this Application under the Navigation View)
+
+You can enhance the Portlet with additional controls that you may need in addition to loading Applet.
+
+
+ http://techcommunity.softwareag.com/ecosystem/communities/codesamples/webmethods/caf/SAMPLE-20131219165440774.html
